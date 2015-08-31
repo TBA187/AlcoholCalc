@@ -24,27 +24,27 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void StartText_TextChanged(object sender, TextChangedEventArgs e)
+        private void StartText_TextChanged(object sender, TextChangedEventArgs e) // tekstboks til starttidspunkt
         {
 
         }
 
-        private void UnitText_TextChanged(object sender, TextChangedEventArgs e)
+        private void UnitText_TextChanged(object sender, TextChangedEventArgs e) // tekstboks til antal genstande indtaget
         {
 
         }
 
-        private void CalcButton_Click(object sender, RoutedEventArgs e)
+        private void CalcButton_Click(object sender, RoutedEventArgs e) // knap til beregning af promille
         {
 
         }
 
-        private void PromilleText_TextChanged(object sender, TextChangedEventArgs e)
+        private void PromilleText_TextChanged(object sender, TextChangedEventArgs e) // tekstboks til brugerens promille
         {
 
         }
 
-        private void AllowedText_TextChanged(object sender, TextChangedEventArgs e)
+        private void AllowedText_TextChanged(object sender, TextChangedEventArgs e) // tekts til "må du køre?"
         {
 
         }
