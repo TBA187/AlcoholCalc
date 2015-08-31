@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    class Login
+    public class Login
     {
+        private List<Person> persons;
+
+        public Login()
+        {
+        }
         public bool Verify(string username, string password)
         {
             if (username == null || password == null)
@@ -15,15 +20,19 @@ namespace WpfApplication1
                 throw new ArgumentNullException();
             }
 
-            if (username == true || password == true)
+            foreach (Person p in persons)
             {
-
+                if (p.Username == username && p.Password == password)
+                {
+                    return true;
+                }
             }
 
-            if (username)
-            {
-
-            }
+            return false;
+        }
+        public void SetUserSource(List<Person> source)
+        {
+            persons = source;
         }
     }
 }
