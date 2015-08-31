@@ -9,8 +9,6 @@ namespace WpfApplication1
     class Controller
     {
         
-
-
         public List<Person> CreatePersons()
         {
             List<Person> personlist = new List<Person>();

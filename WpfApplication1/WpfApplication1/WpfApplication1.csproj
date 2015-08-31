@@ -58,6 +58,7 @@
     </ApplicationDefinition>
     <Compile Include="Calculator.cs" />
     <Compile Include="Controller.cs" />
+    <Compile Include="Login.cs" />
     <Compile Include="Time.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

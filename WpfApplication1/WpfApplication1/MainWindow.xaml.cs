@@ -24,5 +24,20 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void loginbutton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void username_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
