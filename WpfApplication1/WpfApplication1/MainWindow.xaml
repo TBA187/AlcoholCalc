@@ -11,7 +11,7 @@
         <TextBox Name="username" HorizontalAlignment="Left" Height="23" Margin="198,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="username_TextChanged"/>
         <TextBox Name="password" HorizontalAlignment="Left" Height="23" Margin="198,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="password_TextChanged"/>
         <Label Content="Username" HorizontalAlignment="Left" Margin="119,107,0,0" VerticalAlignment="Top"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="119,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="122,178,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

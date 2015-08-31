@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication1.CalculatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CalculatorWindow" Height="375" Width="500">
+    <Grid>
+        <Button Name="CalcButton" Content="Beregn" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="203,160,0,0" Click="CalcButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Name="StartText" VerticalAlignment="Top" Width="120" Margin="60,103,0,0" TextChanged="StartText_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Name="UnitText" VerticalAlignment="Top" Width="120" Margin="309,103,0,0" TextChanged="UnitText_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Name="PromilleText" VerticalAlignment="Top" Width="120" Margin="182,226,0,0" TextChanged="PromilleText_TextChanged"/>
+        <Label Content="Din promille" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="203,195,0,0"/>
+        <Label Content="Genstande indtaget" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="309,72,0,0"/>
+        <Label Content="Starttidspunkt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,72,0,0"/>
+        <Label Content="Må du køre?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="203,263,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Name="AllowedText" VerticalAlignment="Top" Width="120" Margin="182,294,0,0" TextChanged="AllowedText_TextChanged"/>
+
+    </Grid>
+</Window>
