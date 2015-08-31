@@ -8,5 +8,7 @@ namespace WpfApplication1
 {
     class Alcohol
     {
+        public string Type { get; set; }
+        public double Volume { get; set; }
     }
 }

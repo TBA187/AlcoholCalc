@@ -8,5 +8,6 @@ namespace WpfApplication1
 {
     class Time
     {
+        public DateTime Tid { get; set; }
     }
 }
