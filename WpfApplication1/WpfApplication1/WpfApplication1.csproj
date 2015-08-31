@@ -63,6 +63,7 @@
     <Compile Include="Controller.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="Time.cs" />
+    <Compile Include="Units.cs" />
     <Page Include="CalculatorWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
