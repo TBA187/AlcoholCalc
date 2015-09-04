@@ -27,12 +27,9 @@ namespace WpfApplication1
 
         private void loginbutton_Click(object sender, RoutedEventArgs e) // knap til login
         {
-
-        }
-
-        private void password_TextChanged(object sender, TextChangedEventArgs e) // tekstboks til password
-        {
-
+            CalculatorWindow calcW = new CalculatorWindow();
+            calcW.Show();
+            this.Close();
         }
 
         private void username_TextChanged(object sender, TextChangedEventArgs e) // tekstboks til brugernavn

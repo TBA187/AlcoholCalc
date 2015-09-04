@@ -48,5 +48,12 @@ namespace WpfApplication1
         {
 
         }
+
+        private void logoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Close();
+        }
     }
 }

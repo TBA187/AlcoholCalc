@@ -12,6 +12,7 @@
         <Label Content="Starttidspunkt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,72,0,0"/>
         <Label Content="Må du køre?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="203,263,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Name="AllowedText" VerticalAlignment="Top" Width="120" Margin="182,294,0,0" TextChanged="AllowedText_TextChanged"/>
+        <Button Name="logoutButton" Content="Log ud" HorizontalAlignment="Left" Margin="397,302,0,0" VerticalAlignment="Top" Width="75" Click="logoutButton_Click"/>
 
     </Grid>
 </Window>

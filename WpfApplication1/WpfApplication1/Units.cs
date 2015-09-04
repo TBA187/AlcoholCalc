@@ -8,8 +8,7 @@ namespace WpfApplication1
 {
     class Units
     {
-        public string unit { get; set; }
-        public string time { get; set; }
-        public string 
+        public int unit { get; set; }
+        public DateTime time { get; set; }
     }
 }
